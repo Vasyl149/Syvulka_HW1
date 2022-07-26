@@ -17,11 +17,12 @@ public class Calculator {
                 result = (float) n1 / n2;
                 break;
             default:
-                System.out.println("Incorrect input!");
+                System.out.println("Incorrect operator input!");
         }
         return result;
 
     }
+
 
 
 }
